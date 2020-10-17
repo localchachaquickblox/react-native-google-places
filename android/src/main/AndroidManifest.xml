@@ -4,7 +4,10 @@
     <application
         android:label="@string/app_name"
         android:supportsRtl="true">
-
+        <activity
+          android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+          android:screenOrientation="portrait"
+          android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>
